@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -35,6 +36,17 @@ namespace WebAPI
             //this function call add common services from identity core in to this application
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>(); // ad ef core implementations to identity core
+
+            //customizing identity user validation in password
+            services.Configure<IdentityOptions>(options => {
+                    options.Password.RequireDigit = false;
+                    options.Password.RequireLowercase = false;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequireUppercase = false;
+                    options.Password.RequiredLength = 4; // 1st user - 1234
+                }
+
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

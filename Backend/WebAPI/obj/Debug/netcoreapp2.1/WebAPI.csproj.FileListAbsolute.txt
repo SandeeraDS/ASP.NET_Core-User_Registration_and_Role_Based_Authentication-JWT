@@ -3,7 +3,6 @@ C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\bin\Debug
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.dev.json
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.dll
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.pdb
-C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cache
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.dll
 C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.pdb
+C:\Users\GL 62M 7RDX\Desktop\Projects\User Registration\Backend\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
