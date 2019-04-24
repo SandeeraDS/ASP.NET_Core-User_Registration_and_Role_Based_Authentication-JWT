@@ -81,6 +81,7 @@ namespace WebAPI
                     ValidateIssuer = false,
                     ValidateAudience = false,
                     ClockSkew = TimeSpan.Zero,
+                    
                 };
             });
         }
