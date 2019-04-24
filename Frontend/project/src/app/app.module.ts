@@ -8,15 +8,18 @@ import { RegistrationComponent } from "./user/registration/registration.componen
 import { AppRoutingModule } from "./app-routing.module";
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 import { UserService } from "./shared/user.service";
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { LoginComponent } from "./user/login/login.component";
+import { HomeComponent } from "./home/home.component";
+import { AuthInterceptor } from "./auth/auth.interceptor";
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,10 @@ import { LoginComponent } from "./user/login/login.component";
     }),
     FormsModule
   ],
-  providers: [UserService],
+  providers: [
+    UserService,
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
