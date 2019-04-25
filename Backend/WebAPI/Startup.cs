@@ -44,6 +44,7 @@ namespace WebAPI
 
             //this function call add common services from identity core in to this application
             services.AddDefaultIdentity<ApplicationUser>()
+                .AddRoles<IdentityRole>() 
                 .AddEntityFrameworkStores<ApplicationDbContext>(); // ad ef core implementations to identity core
 
             //customizing identity user validation in password
