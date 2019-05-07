@@ -2,4 +2,6 @@
 asp.net core 2.1 identity with Angular 6  
 1.User Registration  
 2.Login and logout with JWT authentication  
-3.Role Based Authentication  
+3.Role Based Authentication 
+4.Auth Gaurd
+5.interceptors
